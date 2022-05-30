@@ -1,7 +1,11 @@
+import React from "react";
+
+import SimpleInput from "./components/SimpleInput";
+
 const App = props => {
   return (
-    <div>
-      Testaaaaaa
+    <div className="app">
+      <SimpleInput />
     </div>
   );
 }
